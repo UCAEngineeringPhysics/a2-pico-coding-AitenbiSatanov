@@ -12,6 +12,8 @@ mode = 1
 last_time = 0
 debounce_time = 200 
 
+# LOOP
+
 def button_handler(pin):
     global mode, last_time
     now = ticks_ms()
@@ -22,7 +24,6 @@ def button_handler(pin):
 
 button.irq(trigger=Pin.IRQ_RISING | Pin.IRQ_FALLING, handler=button_handler)
 
-# LOOP
 def fade_cycle():
     steps = 1000
     step_delay = 2 / steps
