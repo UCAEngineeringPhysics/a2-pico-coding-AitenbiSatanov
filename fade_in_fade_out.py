@@ -3,8 +3,6 @@ from time import sleep
 
 
 # SETUP
-from machine import Pin, PWM
-from time import sleep
 
 dimmer = PWM(Pin(15))
 dimmer.freq(1000)
