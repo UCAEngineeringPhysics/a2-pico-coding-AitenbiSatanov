@@ -1,3 +1,4 @@
+[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/MoSxkwc_)
 # Coding Raspberry Pi Pico
 
 ## Objectives
@@ -38,8 +39,9 @@ Complete [switch_mode.py](/switch_mode.py) and use a button to switch an LED's w
 
 ### 2 (10%) Circuit Picture
 Upload a picture of your actual circuit and display it below 👇
+![IMG_8871](https://github.com/user-attachments/assets/71a9c27a-40df-4be6-8971-fe024f783f0e)
+![IMG_8872](https://github.com/user-attachments/assets/1ce30952-8cde-4352-bb4c-5d369840e3b4)
 
-![wiring_pic](wiring.png)
 
 > [!WARNING]
 > The circuit picture has to be clear about Pico's GPIO pins connection with the LED and the button.
@@ -53,6 +55,9 @@ Use $D_{max}$ as the maximal value for PWM signal's duty cycle.
 Please write out the equation of the duty cycle's **increment** value, $s$, below :point_down:
 
 > Type equation with LaTex syntax here.
+>
+> $$s = \frac{D_{\text{max}}}{n}$$
+
 
 > [!TIP]
 > - Writing mathematical expressions [guide](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/writing-mathematical-expressions)
